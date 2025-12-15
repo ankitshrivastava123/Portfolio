@@ -1,0 +1,89 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background: #0f172a;
+color: #e5e7eb;
+}
+
+
+section {
+padding: 60px 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+
+h1, h2, h3 {
+color: #38bdf8;
+}
+
+
+.hero {
+text-align: center;
+padding: 100px 20px;
+background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+
+.hero span {
+display: block;
+margin-top: 10px;
+opacity: 0.8;
+}
+
+
+.buttons a {
+display: inline-block;
+margin: 20px 10px;
+padding: 12px 24px;
+background: #38bdf8;
+color: #020617;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
+}
+
+
+.buttons .secondary {
+background: transparent;
+border: 1px solid #38bdf8;
+color: #38bdf8;
+}
+
+
+.skills ul {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+list-style: none;
+padding: 0;
+}
+
+
+.skills li {
+background: #020617;
+margin: 10px;
+padding: 15px;
+border-radius: 6px;
+}
+
+
+.project-card {
+background: #020617;
+padding: 20px;
+margin: 20px 0;
+border-radius: 8px;
+}
+
+
+.project-card a {
+color: #38bdf8;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+footer {
+text-align: center;
+padding: 40px 20px;
+background: #020617;
+}
